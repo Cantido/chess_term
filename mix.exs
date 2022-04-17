@@ -20,8 +20,7 @@ defmodule ChessTerm.MixProject do
 
   defp deps do
     [
-      {:lichess_elixir, path: "../lichess_elixir"},
-      {:ratatouille, "~> 0.5.0"}
+      {:lichess_elixir, "~> 0.1"},
     ]
   end
 end

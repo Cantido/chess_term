@@ -20,7 +20,10 @@ defmodule ChessTerm.MixProject do
 
   defp deps do
     [
-      {:lichess_elixir, "~> 0.1"},
+      {:lichess_elixir, "~> 0.2.0"},
+      {:logger_file_backend, "~> 0.0.10"},
+      {:ratatouille, "~> 0.5.0"},
+      {:timex, "~> 3.7.7"}
     ]
   end
 end
